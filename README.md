@@ -1,7 +1,6 @@
 # docs-neko-wallet-adapter
 Documents for Neko Wallet Adapter
 
-
 ![list-adapter](resources/list-adapter.png)
 ![neko-adapter](resources/neko-wallet.png)
 
