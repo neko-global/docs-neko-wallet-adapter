@@ -11,6 +11,7 @@ Documents for Neko Wallet Adapter
     + [Install](#install)
     + [Setup](#setup)
     + [Usage](#usage)
+    + [Demo](#run-demo)
 - [Build from Source](#build-from-source)
 - [React demo](#run-react-demo)
 
@@ -28,16 +29,18 @@ npm install @solana/wallet-adapter-base \
 
 Install adapter for wallet
 
-The [@solana/wallet-adapter-wallets](https://github.com/solana-labs/wallet-adapter/tree/master/packages/wallets/wallets) provided adapters for each wallet. You can install it for all adapters supporting now. [Neko Wallet](https://nekowallet.com/) is also contain in this package.
+Install individual adapter for `Neko Wallet`
+``` bash
+    npm install @solana/wallet-adapter-neko
+```
+
+Or the [@solana/wallet-adapter-wallets](https://github.com/solana-labs/wallet-adapter/tree/master/packages/wallets/wallets) provided adapters for each wallet. You can install it for all adapters supporting now. [Neko Wallet](https://nekowallet.com/) is also contain in this package.
 
 ``` bash
   npm install @solana/wallet-adapter-wallets
 ```
 
-Install individual adapter for `Neko Wallet`
-``` bash
-    npm install @solana/wallet-adapter-neko
-```
+
 ### Setup
 
 ```tsx
@@ -127,33 +130,20 @@ export const SendOneLamportToRandomAddress: FC = () => {
     );
 };
 ```
-## Build from Source
+## Run demo
 
 1. Clone the project:
 ```shell
-  https://github.com/docongminh/neko-wallet-adapter
+    https://github.com/neko-global/docs-neko-wallet-adapter
 ```
 
-2. Install dependencies:
-```shell
-cd neko-wallet-adapter
-npm install
-```
-
-3. Build packages:
-```shell
-npm run build
-```
-## Run react demo
 1. Install
 ```shell
-cd react-ui-demo
-npm install
+    cd demo
+    npm install
 ```
 2. Run
 ```shell
-  npm run start
+    npm run start
 ```
 
-# Sources:
- - [solana-labs](https://github.com/solana-labs/wallet-adapter)
