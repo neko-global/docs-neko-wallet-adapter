@@ -1,8 +1,8 @@
 {
-    "name": "@solana/wallet-adapter-react-ui-starter",
+    "name": "demo-neko-wallet-adapter",
     "version": "0.9.3",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "author": "@minhdocs",
+    "repository": "https://github.com/neko-global/docs-neko-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
         "access": "public"
